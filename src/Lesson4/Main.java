@@ -16,6 +16,9 @@ public class Main {
 
 
 
+
+
+
         int length = str.length();
         int lastIndex = length - 1;
 
@@ -41,6 +44,25 @@ public class Main {
         String correctFullName = "John Smith";
 
 
+
+        String ss1 = "q";
+        String ss2 = "q";
+
+        System.out.println(ss1.equals(ss2));
+        System.out.println(ss1 == ss2);
+        System.out.println(ss1.hashCode());
+
+        String s4 = "    ell jor   ";
+        System.out.println(s4);
+        System.out.println(s4.trim());
+
+
+
+
+        String fullName = "john smitH";
+        String correctFullName = "John Smith";
+
+        System.out.println(str.split(fullName.split()));
 
         String ss1 = "q";
         String ss2 = "q";
